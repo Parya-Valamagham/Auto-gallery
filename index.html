@@ -1,0 +1,539 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>شاهین تبریز | اتوگالری</title>
+<meta name="description" content="اتوگالری شاهین تبریز؛ مرکز تخصصی خرید، فروش، معاوضه و مشاوره خودروهای صفر و کارکرده در تبریز.">
+<meta name="theme-color" content="#070707">
+<meta property="og:title" content="شاهین تبریز | اتوگالری">
+<meta property="og:description" content="سرعت در انتخاب، دقت در خرید.">
+<meta property="og:image" content="images/hero-vid_051.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+@font-face{font-family:VazirLocal;src:url("images/Vazir.woff2") format("woff2");font-display:swap}
+:root{--bg:#070707;--panel:#101112;--panel2:#151617;--gold:#c9a35a;--gold2:#f1d28d;--text:#f5f3ef;--muted:#a6a29b;--line:rgba(255,255,255,.11);--max:1240px}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--text);font-family:VazirLocal,Vazirmatn,Tahoma,sans-serif;overflow-x:hidden}
+body:before{content:"";position:fixed;inset:0;pointer-events:none;opacity:.035;background-image:linear-gradient(rgba(255,255,255,.6) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.6) 1px,transparent 1px);background-size:70px 70px;mask-image:linear-gradient(to bottom,black,transparent 70%);z-index:0}
+a{color:inherit;text-decoration:none}.container{width:min(calc(100% - 48px),var(--max));margin:auto}.progress{position:fixed;top:0;right:0;width:0;height:2px;background:linear-gradient(90deg,var(--gold),#fff,var(--gold));z-index:1000}
+header{position:fixed;top:0;left:0;right:0;height:82px;z-index:100;transition:.35s;background:transparent;border-bottom:1px solid transparent}
+header.scrolled{background:rgba(7,7,7,.78);backdrop-filter:blur(18px);border-color:rgba(201,163,90,.22);box-shadow:0 12px 40px #0008}
+.nav{height:100%;display:flex;align-items:center;justify-content:space-between;gap:25px}.brand{display:flex;align-items:center;gap:12px;font-weight:800}.brand img{width:48px;height:48px;object-fit:contain;filter:drop-shadow(0 4px 12px #000)}.brand span{font-size:16px}.brand small{display:block;color:var(--muted);font-size:10px;font-weight:400;margin-top:2px}
+nav{display:flex;gap:30px;align-items:center}nav a{font-size:13px;color:#ddd;position:relative}nav a:after{content:"";position:absolute;bottom:-9px;right:0;width:0;height:1px;background:var(--gold);transition:.25s}nav a:hover:after{width:100%}.nav-cta{padding:11px 18px;border:1px solid #c9a35a66;border-radius:999px;color:var(--gold2)!important;background:#c9a35a0c}
+.menu{display:none;background:none;border:0;color:#fff;font-size:25px;cursor:pointer;padding:8px;line-height:1;position:relative;z-index:110}
+.hero-wrap{position:relative;width:100%;height:calc(100vh + 1px);}.hero{height:100vh;position:sticky;top:0;overflow:hidden;background:#050505}.hero canvas{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}.hero:after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(0,0,0,.72),rgba(0,0,0,.16) 58%,rgba(0,0,0,.38)),linear-gradient(0deg,rgba(0,0,0,.72),transparent 42%);pointer-events:none}
+.hero-content{position:absolute;z-index:2;left:6%;top:50%;transform:translateY(-50%);width:min(610px,86vw);direction:rtl}.eyebrow{display:flex;align-items:center;gap:12px;color:var(--gold2);font-size:12px;letter-spacing:2px}.eyebrow i{display:block;width:45px;height:1px;background:var(--gold)}
+.hero h1{font-size:clamp(42px,6.3vw,92px);line-height:1.04;margin:20px 0 18px;font-weight:800;letter-spacing:-2px}.hero p{font-size:16px;line-height:2;color:#d2d0cc;max-width:560px}.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}.btn{border:1px solid var(--gold);padding:13px 23px;border-radius:4px;font-family:inherit;font-size:13px;cursor:pointer;transition:.3s}.btn.primary{background:var(--gold);color:#0a0a0a}.btn.secondary{background:#ffffff09;color:#fff;border-color:#fff3}.btn:hover{transform:translateY(-2px);box-shadow:0 12px 30px #0008}.hero-meta{position:absolute;z-index:3;bottom:35px;left:6%;right:6%;display:flex;justify-content:space-between;color:#aaa;font-size:11px}.scroll-hint{display:flex;align-items:center;gap:10px}.scroll-hint span{width:1px;height:32px;background:var(--gold);display:block}.loader{position:fixed;inset:0;background:#050505;z-index:999;display:grid;place-items:center;transition:.7s}.loader.hide{opacity:0;visibility:hidden}.loader-inner{text-align:center}.loader-logo{width:74px;height:74px;object-fit:contain;margin-bottom:20px}.loader-name{font-weight:700;font-size:19px}.loadline{width:230px;height:2px;background:#ffffff12;margin:18px auto 8px;overflow:hidden}.loadline i{display:block;width:0;height:100%;background:var(--gold);transition:.15s}.loadpct{font-size:11px;color:#999}
+.ticker{background:#0b0c0c;border-block:1px solid var(--line);overflow:hidden;white-space:nowrap}.ticker-track{display:inline-flex;gap:55px;min-width:max-content;padding:18px 0;animation:ticker 28s linear infinite}.ticker b{font-size:12px;font-weight:500;color:#d9d5cd}.ticker b:before{content:"✦";color:var(--gold);margin-left:18px}@keyframes ticker{to{transform:translateX(50%)}}section{position:relative;z-index:1;padding:110px 0}.section-head{display:flex;justify-content:space-between;align-items:end;gap:30px;margin-bottom:45px}.kicker{color:var(--gold);font-size:12px;letter-spacing:2px}.section-head h2{font-size:clamp(32px,4vw,58px);margin:8px 0 0;line-height:1.1}.section-head p{color:var(--muted);max-width:450px;line-height:1.9;font-size:13px}
+.inventory{background:linear-gradient(180deg,#080808,#0d0e0f)}.tools{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:30px}.search,.select{height:45px;background:#111314;border:1px solid var(--line);color:#eee;border-radius:4px;padding:0 15px;font-family:inherit}.search{min-width:240px}.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px;align-items:stretch}.card{background:linear-gradient(145deg,#151616,#0c0d0d);border:1px solid var(--line);overflow:hidden;transition:.35s;position:relative}.card:hover{border-color:#c9a35a55;transform:translateY(-5px)}.card-media{height:245px;overflow:hidden;background:#111}.card-media img{width:100%;height:100%;object-fit:cover;transition:.6s}.card:hover .card-media img{transform:scale(1.035)}.card-body{padding:24px}.card-top{display:flex;justify-content:space-between;gap:20px;align-items:start}.card h3{margin:0;font-size:24px}.price{color:var(--gold2);font-size:19px;font-weight:700;white-space:nowrap}.specs{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:24px}.spec{padding-top:12px;border-top:1px solid var(--line)}.spec small{display:block;color:#777;font-size:10px;margin-bottom:4px}.spec strong{font-size:12px;font-weight:500}.card-actions{margin-top:22px;display:flex;gap:9px}.card-actions .btn{flex:1;text-align:center}
+.brands{display:flex;flex-wrap:wrap;gap:12px}.brand-chip{border:1px solid var(--line);padding:15px 25px;color:#c8c5be;background:#0e0f10;min-width:125px;text-align:center;transition:.25s}.brand-chip:hover{border-color:#c9a35a66;color:var(--gold2)}
+.about{background:#0a0b0b}.about-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:70px;align-items:center}.about-copy h2{font-size:clamp(35px,5vw,70px);line-height:1.05;margin:12px 0 25px}.about-copy p{color:#aaa;line-height:2;font-size:15px}.stats{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;margin-top:35px}.stat{border:1px solid var(--line);padding:22px;background:#111}.stat strong{font-size:31px;color:var(--gold2);display:block}.stat span{font-size:11px;color:#888}.glass-object{aspect-ratio:1;max-width:430px;margin:auto;border-radius:45%;border:1px solid #c9a35a35;background:radial-gradient(circle at 35% 25%,#fff2,#c9a35a0a 35%,transparent 60%),linear-gradient(145deg,#ffffff0b,#ffffff01);box-shadow:inset 0 0 70px #fff2,0 30px 100px #000;transform:rotate(-14deg);position:relative}.glass-object:before{content:"";position:absolute;inset:15%;border:1px solid #ffffff18;border-radius:50%}.glass-object:after{content:"";position:absolute;left:10%;right:10%;top:50%;height:1px;background:linear-gradient(90deg,transparent,#c9a35a88,transparent)}
+.about-visual{position:relative;min-height:470px;display:flex;align-items:center;justify-content:center;overflow:hidden}
+.about-visual-glow{position:absolute;width:360px;height:360px;border-radius:50%;background:radial-gradient(circle,#c9a35a20 0%,#c9a35a08 35%,transparent 70%);filter:blur(4px)}
+.about-visual-card{position:relative;z-index:2;width:min(430px,100%);min-height:390px;padding:38px;border:1px solid #c9a35a38;background:linear-gradient(145deg,rgba(255,255,255,.08),rgba(255,255,255,.018));backdrop-filter:blur(18px);box-shadow:0 30px 90px #000, inset 0 0 55px #ffffff06;clip-path:polygon(0 0,92% 0,100% 8%,100% 100%,8% 100%,0 92%)}
+.about-visual-kicker{font-size:10px;letter-spacing:3px;color:var(--gold);display:block;margin-bottom:28px}
+.about-visual-card>strong{display:block;font-size:clamp(32px,4vw,52px);line-height:1.15;color:#f4eee4;margin-bottom:18px}
+.about-visual-card>p{color:#aaa;line-height:2;font-size:13px;max-width:340px;margin:0 0 26px}
+.about-points{display:grid;gap:0;border-top:1px solid var(--line)}
+.about-points>div{display:grid;grid-template-columns:38px 1fr;column-gap:12px;padding:13px 0;border-bottom:1px solid #ffffff0b}
+.about-points span{grid-row:span 2;color:var(--gold);font-size:10px;padding-top:3px}
+.about-points b{font-size:12px;font-weight:600;color:#eee}
+.about-points small{font-size:10px;color:#777;margin-top:3px}
+.about-visual-orbit{position:absolute;border:1px solid #c9a35a24;border-radius:50%;pointer-events:none}
+.orbit-one{width:430px;height:430px;transform:rotate(22deg);border-right-color:#c9a35a70}
+.orbit-two{width:520px;height:180px;transform:rotate(-28deg);border-color:#ffffff10}
+.request-actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:24px}
+.request-actions .btn{flex:0 0 auto}
+.request-modal{position:fixed;inset:0;background:#000c;backdrop-filter:blur(12px);z-index:300;display:none;align-items:center;justify-content:center;padding:20px}
+.request-modal.open{display:flex}
+.request-box{width:min(500px,100%);position:relative;border:1px solid #c9a35a44;background:linear-gradient(145deg,#171717,#0b0b0b);padding:34px;box-shadow:0 35px 100px #000}
+.request-box h3{font-size:27px;margin:0 0 10px}
+.request-box>p{color:#999;font-size:12px;line-height:2;margin:0 0 24px}
+.request-options{display:grid;gap:10px}
+.request-option{display:flex;align-items:center;justify-content:space-between;gap:20px;padding:17px;border:1px solid var(--line);background:#ffffff04}
+.request-option span{color:#aaa;font-size:11px}
+.request-option strong{display:block;font-size:13px;margin-bottom:4px}
+.request-close{position:absolute;top:14px;left:14px;width:36px;height:36px;border:1px solid #ffffff18;background:#ffffff08;color:#fff;font-size:20px;cursor:pointer}
+
+.services{background:#080909}.services-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:12px}.service{padding:28px 22px;background:#111213;border:1px solid var(--line);min-height:250px}.service-num{color:var(--gold);font-size:11px}.service h3{margin:38px 0 13px;font-size:17px}.service p{font-size:11px;color:#92908b;line-height:2}
+.sell,.finance{background:linear-gradient(120deg,#12100c,#090909)}.feature{border:1px solid #c9a35a33;padding:45px;background:radial-gradient(circle at 85% 30%,#c9a35a12,transparent 35%),#0c0d0d}.feature h2{font-size:clamp(30px,4vw,54px);margin:10px 0 15px}.feature p,.feature li{color:#aaa;line-height:2;font-size:13px}.feature ul{padding-right:20px}.gallery-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}.gallery-grid figure{margin:0;height:230px;overflow:hidden;background:#111}.gallery-grid figure:nth-child(1){grid-column:span 2;grid-row:span 2;height:470px}.gallery-grid img{width:100%;height:100%;object-fit:cover;transition:.5s;cursor:pointer}.gallery-grid figure:hover img{transform:scale(1.04)}
+.testimonials{background:#0a0b0b}.reviews{display:grid;grid-template-columns:repeat(3,1fr);gap:15px}.review{padding:28px;background:#111;border:1px solid var(--line)}.review q{display:block;font-size:15px;line-height:2;color:#ddd}.review strong{display:block;margin-top:25px;color:var(--gold2);font-size:12px}
+.contact{background:#080808}.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}.contact-card{border:1px solid var(--line);padding:35px;background:#101112}.contact-card h3{margin-top:0;font-size:21px}.contact-list{display:grid;gap:13px}.contact-list a,.contact-list div{padding:14px 0;border-bottom:1px solid #ffffff0a;color:#ccc;font-size:13px}.contact-list a:hover{color:var(--gold2)}.map-btn{margin-top:20px;display:inline-block}.footer{padding:55px 0 30px;background:#050505;border-top:1px solid var(--line)}.footer-top{display:flex;justify-content:space-between;gap:30px}.footer p{color:#777;font-size:12px;line-height:2;max-width:430px}.copyright{margin-top:50px;padding-top:20px;border-top:1px solid #ffffff0a;color:#555;font-size:10px}
+.reveal{opacity:0;transform:translateY(24px);filter:blur(5px);transition:1s ease}.reveal.show{opacity:1;transform:none;filter:none}.top{position:fixed;bottom:25px;right:25px;width:48px;height:48px;border:1px solid #c9a35a55;background:#101112d9;color:var(--gold2);z-index:50;display:grid;place-items:center;opacity:0;visibility:hidden;transition:.3s;cursor:pointer}.top.show{opacity:1;visibility:visible}.lightbox{position:fixed;inset:0;background:#000e;backdrop-filter:blur(12px);z-index:200;display:none;align-items:center;justify-content:center}.lightbox.open{display:flex}.lightbox img{max-width:90vw;max-height:85vh;object-fit:contain}.lb-btn{position:absolute;background:#ffffff0b;border:1px solid #ffffff18;color:#fff;width:45px;height:45px;font-size:22px;cursor:pointer}.lb-close{top:30px;right:30px}.lb-prev{right:30px}.lb-next{left:30px}
+.decor{position:fixed;z-index:0;pointer-events:none;border:1px solid #c9a35a20;border-radius:50%;width:180px;height:180px;left:3%;top:35%;opacity:.4}.decor:after{content:"";position:absolute;inset:25%;border:1px solid #fff1;border-radius:50%}
+@media(max-width:900px){nav{display:none;position:absolute;top:82px;right:14px;left:14px;flex-direction:column;align-items:stretch;gap:0;padding:10px;background:rgba(12,12,12,.97);border:1px solid #c9a35a44;box-shadow:0 20px 60px #000c;backdrop-filter:blur(18px);border-radius:6px}nav.mobile-open{display:flex}nav a{padding:14px 16px;font-size:14px;border-bottom:1px solid #ffffff0b}nav a:last-child{border-bottom:0}.nav-cta{display:block;text-align:center;margin-top:8px}.menu{display:block}.grid{grid-template-columns:1fr}.services-grid{grid-template-columns:repeat(2,1fr)}.about-grid,.contact-grid{grid-template-columns:1fr}.gallery-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.gallery-grid figure:nth-child(1){height:180px;grid-column:auto}.gallery-grid figure{height:180px}.hero-content{left:7%;right:7%;width:auto}.hero-meta{left:7%;right:7%}}
+@media(max-width:600px){.grid{grid-template-columns:1fr}.card-media{height:220px}.about-visual{min-height:430px}.about-visual-card{min-height:360px;padding:28px}.about-visual-orbit{display:none}.container{width:min(calc(100% - 28px),var(--max))}.hero h1{font-size:44px;letter-spacing:-1px}.hero p{font-size:13px}.hero-content{top:53%}.services-grid,.reviews{grid-template-columns:1fr}.specs{grid-template-columns:repeat(2,1fr)}.card-media{height:245px}.section-head{display:block}.section-head p{margin-top:18px}.gallery-grid{grid-template-columns:1fr}.gallery-grid figure{height:210px}.footer-top{display:block}.nav-cta{display:none}.brand span{font-size:14px}.brand img{width:42px;height:42px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.ticker-track{animation:none}.reveal{transition:none}.card,.card-media img{transition:none}}
+
+.hero-next-fix{height:1px;width:100%;}
+</style>
+</head>
+<body>
+<div class="progress" id="progress"></div>
+<div class="loader" id="loader"><div class="loader-inner"><img class="loader-logo" src="images/logo.png" alt="شاهین تبریز"><div class="loader-name">شاهین تبریز</div><div class="loadline"><i id="loadbar"></i></div><div class="loadpct" id="loadpct">0%</div></div></div>
+<header id="header"><div class="container nav"><a class="brand" href="#home"><img src="images/logo.png" alt="لوگوی شاهین تبریز"><span>شاهین تبریز<small>اتوگالری تخصصی</small></span></a><nav><a href="#inventory">خودروها</a><a href="#about">درباره ما</a><a href="#services">خدمات</a><a href="#gallery">گالری</a><a href="#contact">تماس</a><a class="nav-cta" href="#contact">تماس با نمایشگاه</a></nav><button class="menu" id="menu" aria-label="منوی موبایل" aria-expanded="false" type="button">☰</button></div></header>
+<main>
+<section id="home" class="hero-wrap"><div class="hero"><canvas id="heroCanvas"></canvas><div class="hero-content"><div class="eyebrow"><i></i> 2026 COLLECTION</div><h1>قدرت، طراحی، هیجان</h1><p>خودرو فقط وسیله نیست، تصمیم است؛ نمایشگاه فقط محل نیست، اعتماد است.</p><div class="actions"><a class="btn primary" href="#inventory">مشاهده خودروها</a><a class="btn secondary" href="#contact">تماس با نمایشگاه</a></div></div><div class="hero-meta"><span>شاهین تبریز / Tabriz</span><span class="scroll-hint"><span></span>برای تجربه کامل اسکرول کنید</span></div></div></section>
+<div class="ticker"><div class="ticker-track"><b>خودروهای لوکس</b><b>خودروهای اسپرت</b><b>خرید خودرو</b><b>فروش خودرو</b><b>مشاوره تخصصی</b><b>خودروهای خاص</b><b>خودروهای لوکس</b><b>خودروهای اسپرت</b><b>خرید خودرو</b><b>فروش خودرو</b><b>مشاوره تخصصی</b><b>خودروهای خاص</b></div></div>
+<div class="hero-next-fix" aria-hidden="true"></div>
+<section id="inventory" class="inventory"><div class="container"><div class="section-head reveal"><div><span class="kicker">INVENTORY</span><h2>خودروهای موجود</h2></div><p>انتخابی محدود از خودروهای ارائه‌شده در اتوگالری شاهین تبریز.</p></div><div class="tools reveal"><input class="search" id="search" placeholder="جستجوی خودرو..." aria-label="جستجوی خودرو"><select class="select" id="yearFilter" aria-label="فیلتر سال"><option value="">همه سال‌ها</option><option>2025</option><option>2024</option></select></div><div class="grid" id="cars"></div></div></section>
+<section class="brands"><div class="container"><div class="section-head reveal"><div><span class="kicker">BRANDS</span><h2>برندها</h2></div></div><div class="brands reveal"><div class="brand-chip">BMW</div><div class="brand-chip">Mercedes Benz</div><div class="brand-chip">Porsche</div><div class="brand-chip">Audi</div><div class="brand-chip">Lexus</div><div class="brand-chip">Tesla</div></div></div></section>
+<section id="about" class="about"><div class="container about-grid"><div class="about-copy reveal"><span class="kicker">درباره ما</span><h2>انتخاب خودرو،<br>با اطمینان</h2><p>اتوگالری شاهین تبریز، مرکز تخصصی خرید، فروش، معاوضه و مشاوره خودروهای صفر و کارکرده در تبریز است. ما با تکیه بر شفافیت، تضمین اصالت و قیمت منصفانه، تجربه‌ای مطمئن و حرفه‌ای برای انتخاب خودروی مناسب شما فراهم می‌کنیم.</p><div class="stats"><div class="stat"><strong>1405</strong><span>سال شروع فعالیت</span></div><div class="stat"><strong>200+</strong><span>خودروی فروخته شده</span></div><div class="stat"><strong>20</strong><span>خودروی موجود</span></div><div class="stat"><strong>1000+</strong><span>مشتری</span></div></div></div><div class="about-visual reveal">
+      <div class="about-visual-glow"></div>
+      <div class="about-visual-card">
+        <span class="about-visual-kicker">SHAHIN TABRIZ</span>
+        <strong>اعتماد،<br>قبل از معامله.</strong>
+        <p>شفافیت در انتخاب، بررسی دقیق خودرو و همراهی حرفه‌ای تا لحظه تصمیم.</p>
+        <div class="about-points">
+          <div><span>01</span><b>اصالت خودرو</b><small>بررسی و ارائه اطلاعات شفاف</small></div>
+          <div><span>02</span><b>قیمت منصفانه</b><small>ارزیابی متناسب با شرایط خودرو</small></div>
+          <div><span>03</span><b>مشاوره تخصصی</b><small>انتخاب متناسب با نیاز شما</small></div>
+        </div>
+      </div>
+      <div class="about-visual-orbit orbit-one"></div>
+      <div class="about-visual-orbit orbit-two"></div>
+    </div></div></section>
+<section id="services" class="services"><div class="container"><div class="section-head reveal"><div><span class="kicker">SERVICES</span><h2>خدمات نمایشگاه</h2></div></div><div class="services-grid">
+<div class="service reveal"><span class="service-num">01</span><h3>خرید خودرو</h3><p>مشاوره تخصصی، بررسی کارشناسی و اصالت، قیمت منصفانه و همراهی تا تحویل خودرو.</p></div>
+<div class="service reveal"><span class="service-num">02</span><h3>فروش خودرو</h3><p>کارشناسی فنی و بدنه، قیمت‌گذاری منصفانه، معرفی به خریداران معتبر و انجام مراحل قانونی.</p></div>
+<div class="service reveal"><span class="service-num">03</span><h3>کارشناسی خودرو</h3><p>بررسی فنی، بدنه، رنگ، شاسی، موتور، گیربکس، سیستم برقی و اصالت مدارک.</p></div>
+<div class="service reveal"><span class="service-num">04</span><h3>تعویض خودرو</h3><p>کارشناسی و تعیین ارزش خودروی شما و معاوضه با خودروی موردنظر همراه با مراحل قانونی.</p></div>
+<div class="service reveal"><span class="service-num">05</span><h3>مشاوره خرید</h3><p>بررسی بودجه و نیاز، پیشنهاد خودرو، مقایسه گزینه‌ها و همراهی تا لحظه معامله.</p></div>
+</div></div></section>
+<section class="sell"><div class="container"><div class="feature reveal"><span class="kicker">SELL / TRADE</span><h2>خودرو برای فروش یا تعویض دارید؟</h2><p>اگر می‌خواهی خودروی خودت را بفروشی، برای درخواست کارشناس با نمایشگاه در تماس باش.</p><div class="request-actions">
+  <button class="btn primary js-request" data-title="درخواست کارشناس" data-text="برای ثبت درخواست کارشناسی و هماهنگی با کارشناس شاهین تبریز، با شماره نمایشگاه تماس بگیرید.">درخواست کارشناس</button>
+</div></div></div></section>
+<section class="finance"><div class="container"><div class="feature reveal"><span class="kicker">FINANCING</span><h2>خرید اقساطی خودرو</h2><p>خودروی صفر یا کارکرده را با شرایط اقساطی انعطاف‌پذیر تهیه کنید. کارشناسی دقیق، قیمت منصفانه و انجام مراحل قانونی تا تحویل خودرو با ما.</p><ul><li>پیش‌پرداخت توافقی</li><li>ارائه مدارک هویتی و شغلی</li><li>امکان اقساط ۱۲ تا ۳۶ ماهه</li><li>با ضامن یا چک/سفته بسته به توافق</li><li>تأیید اعتبار توسط کارشناسان شاهین تبریز</li></ul><a class="btn primary" href="tel:09149149114">درخواست خرید اقساطی</a></div></div></section>
+<section id="gallery"><div class="container"><div class="section-head reveal"><div><span class="kicker">SHOWROOM</span><h2>فضای نمایشگاه</h2></div></div><div class="gallery-grid reveal" id="galleryGrid"></div></div></section>
+<section class="testimonials"><div class="container"><div class="section-head reveal"><div><span class="kicker">CLIENTS</span><h2>تجربه مشتریان</h2></div></div><div class="reviews"><div class="review reveal"><q>بهترین تجربه رو از خرید ماشین داشتم</q><strong>پریا</strong></div><div class="review reveal"><q>مرسی از نمایشگاهتون</q><strong>زهرا</strong></div><div class="review reveal"><q>عالی بود</q><strong>معصومه</strong></div></div></div></section>
+<section id="contact" class="contact"><div class="container"><div class="section-head reveal"><div><span class="kicker">CONTACT</span><h2>با ما در تماس باشید</h2></div><p>شاهین تبریز؛ سرعت در انتخاب، دقت در خرید.</p></div><div class="contact-grid"><div class="contact-card reveal"><h3>ارتباط با نمایشگاه</h3><div class="contact-list"><a href="tel:09149149114">09149149114</a><a href="https://instagram.com/Shahin_tabriz_autogallery" target="_blank" rel="noopener">Instagram / Shahin_tabriz_autogallery</a><a href="https://Shahin_tabriz_autogallery.ir" target="_blank" rel="noopener">Shahin_tabriz_autogallery.ir</a></div></div><div class="contact-card reveal"><h3>آدرس و ساعات کاری</h3><div class="contact-list"><div>تبریز، آبرسان، نبش کوچه بزرگمهر</div><div>ساعات کاری: 9 تا 23</div></div><a class="btn primary map-btn" href="https://maps.app.goo.gl/CWQymZUEz9aZ7ide8" target="_blank" rel="noopener">مشاهده روی نقشه</a></div></div></div></section>
+</main>
+<footer class="footer"><div class="container"><div class="footer-top"><div class="brand"><img src="images/logo.png" alt="شاهین تبریز"><span>شاهین تبریز<small>اتوگالری تخصصی</small></span></div><p>مرکز تخصصی خرید، فروش، معاوضه و کارشناسی خودروهای صفر و کارکرده در تبریز.<br>اعتماد از تبریز، انتخاب از شاهین.</p></div><div class="copyright">تمامی حقوق برای اتوگالری شاهین تبریز محفوظ است ©</div></div></footer>
+<button class="top" id="top" aria-label="بازگشت به بالا">↑</button><div class="decor"></div>
+<div class="lightbox" id="lightbox"><button class="lb-btn lb-close" aria-label="بستن">×</button><button class="lb-btn lb-prev" aria-label="قبلی">›</button><img id="lbImg" alt="تصویر گالری"><button class="lb-btn lb-next" aria-label="بعدی">‹</button></div>
+
+<script>
+(() => {
+  /*
+    Hero sequence:
+    - Original assets: hero-vid_000.jpg ... hero-vid_102.jpg
+    - Every second frame is used to keep the motion cinematic and lighter.
+    - The displayed image uses "contain" so the full car/frame is visible.
+    - A blurred enlarged copy sits behind it to avoid empty black margins.
+  */
+  const HERO_CONFIG = {
+    firstFrame: 0,
+    lastFrame: 102,
+    step: 2,
+    imageDirectory: "images",
+    filePrefix: "hero-vid_",
+    extension: "jpg",
+    scrollFactor: 26
+  };
+
+  const frameNumbers = [];
+  for (let i = HERO_CONFIG.firstFrame; i <= HERO_CONFIG.lastFrame; i += HERO_CONFIG.step) {
+    frameNumbers.push(i);
+  }
+  if (frameNumbers[frameNumbers.length - 1] !== HERO_CONFIG.lastFrame) {
+    frameNumbers.push(HERO_CONFIG.lastFrame);
+  }
+
+  HERO_CONFIG.totalFrames = frameNumbers.length;
+  HERO_CONFIG.middle = Math.floor((HERO_CONFIG.totalFrames - 1) / 2);
+
+  const canvas = document.getElementById("heroCanvas");
+  const ctx = canvas ? canvas.getContext("2d", { alpha: false }) : null;
+  const hero = document.querySelector(".hero");
+  const wrap = document.querySelector(".hero-wrap");
+
+  if (!canvas || !ctx || !hero || !wrap) return;
+
+  const images = new Array(HERO_CONFIG.totalFrames);
+  let loaded = 0;
+  let targetFrame = 0;
+  let renderedFrame = -1;
+  let rafPending = false;
+
+  const framePath = (position) =>
+    `${HERO_CONFIG.imageDirectory}/${HERO_CONFIG.filePrefix}${String(frameNumbers[position]).padStart(3, "0")}.${HERO_CONFIG.extension}`;
+
+  function setCanvasSize() {
+    const dpr = Math.min(window.devicePixelRatio || 1, 2);
+    const rect = canvas.getBoundingClientRect();
+    canvas.width = Math.max(1, Math.round(rect.width * dpr));
+    canvas.height = Math.max(1, Math.round(rect.height * dpr));
+    ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+    renderFrame(Math.round(targetFrame));
+  }
+
+  function getNearestImage(index) {
+    if (images[index]?.complete && images[index]?.naturalWidth) return images[index];
+
+    for (let d = 1; d <= HERO_CONFIG.totalFrames; d++) {
+      const a = index - d;
+      const b = index + d;
+
+      if (a >= 0 && images[a]?.complete && images[a]?.naturalWidth) return images[a];
+      if (b < HERO_CONFIG.totalFrames && images[b]?.complete && images[b]?.naturalWidth) return images[b];
+    }
+    return null;
+  }
+
+  function renderFrame(index) {
+    index = Math.max(0, Math.min(HERO_CONFIG.totalFrames - 1, index));
+
+    const img = getNearestImage(index);
+    if (!img) return;
+
+    const w = canvas.clientWidth;
+    const h = canvas.clientHeight;
+    if (!w || !h) return;
+
+    ctx.fillStyle = "#050505";
+    ctx.fillRect(0, 0, w, h);
+
+    const iw = img.naturalWidth;
+    const ih = img.naturalHeight;
+
+    // Background: enlarged + darkened version of the same frame.
+    const bgScale = Math.max(w / iw, h / ih);
+    const bgW = iw * bgScale;
+    const bgH = ih * bgScale;
+    const bgX = (w - bgW) / 2;
+    const bgY = (h - bgH) / 2;
+
+    ctx.save();
+    ctx.filter = "blur(22px) brightness(.42)";
+    ctx.drawImage(img, bgX - 18, bgY - 18, bgW + 36, bgH + 36);
+    ctx.restore();
+
+    // Foreground: full frame, no cropping.
+    const containScale = Math.min(w / iw, h / ih);
+    const dw = iw * containScale;
+    const dh = ih * containScale;
+    const dx = (w - dw) / 2;
+    const dy = (h - dh) / 2;
+
+    ctx.drawImage(img, dx, dy, dw, dh);
+
+    // Soft cinematic vignette.
+    const vignette = ctx.createRadialGradient(
+      w / 2, h / 2, Math.min(w, h) * .22,
+      w / 2, h / 2, Math.max(w, h) * .75
+    );
+    vignette.addColorStop(0, "rgba(0,0,0,0)");
+    vignette.addColorStop(1, "rgba(0,0,0,.30)");
+    ctx.fillStyle = vignette;
+    ctx.fillRect(0, 0, w, h);
+
+    renderedFrame = index;
+  }
+
+  function requestRender() {
+    if (rafPending) return;
+    rafPending = true;
+
+    requestAnimationFrame(() => {
+      rafPending = false;
+
+      const current = renderedFrame < 0 ? targetFrame : renderedFrame;
+      const diff = targetFrame - current;
+
+      if (renderedFrame < 0 || Math.abs(diff) < .35) {
+        renderFrame(Math.round(targetFrame));
+      } else {
+        renderFrame(Math.round(current + diff * .32));
+      }
+
+      if (Math.abs(targetFrame - renderedFrame) > .5) {
+        requestRender();
+      }
+    });
+  }
+
+  function setHeroScrollDistance() {
+    const extra = Math.max(
+      window.innerHeight * 0.95,
+      HERO_CONFIG.totalFrames * 12
+    );
+
+    wrap.style.height = `calc(100vh + ${Math.round(extra)}px)`;
+    hero.style.height = "100vh";
+  }
+
+  function updateFromScroll() {
+    const start = wrap.offsetTop;
+    const scrollable = Math.max(1, wrap.offsetHeight - window.innerHeight);
+    const local = Math.max(0, Math.min(scrollable, window.scrollY - start));
+    const progress = local / scrollable;
+
+    targetFrame = progress * (HERO_CONFIG.totalFrames - 1);
+    requestRender();
+  }
+
+  frameNumbers.forEach((_, position) => {
+    const img = new Image();
+    img.decoding = "async";
+    img.src = framePath(position);
+
+    img.onload = () => {
+      images[position] = img;
+      loaded++;
+
+      if (position === 0 || position === HERO_CONFIG.middle) {
+        renderFrame(position);
+      }
+
+      if (loaded === HERO_CONFIG.totalFrames) {
+        const loader = document.getElementById("loader");
+        if (loader) {
+          setTimeout(() => loader.classList.add("hide"), 350);
+        }
+      }
+    };
+
+    img.onerror = () => {
+      loaded++;
+      if (loaded === HERO_CONFIG.totalFrames) {
+        const loader = document.getElementById("loader");
+        if (loader) {
+          setTimeout(() => loader.classList.add("hide"), 350);
+        }
+      }
+    };
+  });
+
+  setHeroScrollDistance();
+  setCanvasSize();
+  updateFromScroll();
+
+  window.addEventListener("resize", () => {
+    setHeroScrollDistance();
+    setCanvasSize();
+    updateFromScroll();
+  }, { passive: true });
+
+  window.addEventListener("scroll", updateFromScroll, { passive: true });
+})();
+</script>
+
+
+<div class="request-modal" id="requestModal" aria-hidden="true">
+  <div class="request-box" role="dialog" aria-modal="true" aria-labelledby="requestTitle">
+    <button class="request-close" id="requestClose" aria-label="بستن">×</button>
+    <span class="kicker">SHAHIN TABRIZ</span>
+    <h3 id="requestTitle">درخواست کارشناس</h3>
+    <p id="requestText">برای ثبت درخواست با نمایشگاه تماس بگیرید.</p>
+    <div class="request-options">
+      <a class="request-option" href="tel:09149149114">
+        <div><strong>تماس مستقیم</strong><span>ارتباط با نمایشگاه</span></div>
+        <b>09149149114</b>
+      </a>
+    </div>
+  </div>
+</div>
+
+
+<script>
+(() => {
+  const cars = [
+    {
+      name: "BMW M4 Competition",
+      year: "2025",
+      price: "4,700,000,000 تومان",
+      km: "8,000 کیلومتر",
+      color: "مشکی",
+      fuel: "بنزینی",
+      image: "images/car01.jpeg"
+    },
+    {
+      name: "Benz G-Class",
+      year: "2024",
+      price: "100,000,000,000 تومان",
+      km: "8,050 کیلومتر",
+      color: "مشکی",
+      fuel: "بنزینی",
+      image: "images/car02.jpeg"
+    },
+    {
+      name: "BMW M4 Competition",
+      year: "2025",
+      price: "4,700,000,000 تومان",
+      km: "8,000 کیلومتر",
+      color: "مشکی",
+      fuel: "بنزینی",
+      image: "images/car01.jpeg"
+    }
+  ];
+
+  const carsEl = document.getElementById("cars");
+  const searchEl = document.getElementById("search");
+  const yearEl = document.getElementById("yearFilter");
+
+  function card(car) {
+    return `
+      <article class="card reveal">
+        <div class="card-media">
+          <img src="${car.image}" alt="${car.name}" loading="lazy">
+        </div>
+        <div class="card-body">
+          <div class="card-top">
+            <div>
+              <h3>${car.name}</h3>
+              <div style="color:#777;font-size:11px;margin-top:7px">${car.year}</div>
+            </div>
+            <div class="price">${car.price}</div>
+          </div>
+          <div class="specs">
+            <div class="spec"><small>کارکرد</small><strong>${car.km}</strong></div>
+            <div class="spec"><small>رنگ</small><strong>${car.color}</strong></div>
+            <div class="spec"><small>سوخت</small><strong>${car.fuel}</strong></div>
+          </div>
+          <div class="card-actions">
+            <a class="btn primary" href="#contact">درخواست مشاوره</a>
+            <button class="btn secondary js-car-request" type="button">اطلاعات بیشتر</button>
+          </div>
+        </div>
+      </article>
+    `;
+  }
+
+  function renderCars() {
+    if (!carsEl) return;
+    const q = (searchEl?.value || "").trim().toLowerCase();
+    const year = yearEl?.value || "";
+
+    const filtered = cars.filter(car => {
+      const matchesText = !q || `${car.name} ${car.year} ${car.color} ${car.fuel}`.toLowerCase().includes(q);
+      const matchesYear = !year || car.year === year;
+      return matchesText && matchesYear;
+    });
+
+    carsEl.innerHTML = filtered.length
+      ? filtered.map(card).join("")
+      : `<div style="grid-column:1/-1;padding:45px;text-align:center;color:#888;border:1px solid var(--line)">خودرویی با این مشخصات پیدا نشد.</div>`;
+
+    observeReveals();
+  }
+
+  searchEl?.addEventListener("input", renderCars);
+  yearEl?.addEventListener("change", renderCars);
+  renderCars();
+
+  const header = document.getElementById("header");
+  const top = document.getElementById("top");
+  function updateUI() {
+    const y = window.scrollY;
+    header?.classList.toggle("scrolled", y > 40);
+    top?.classList.toggle("show", y > 600);
+    const progress = document.getElementById("progress");
+    if (progress) {
+      const max = document.documentElement.scrollHeight - innerHeight;
+      progress.style.width = `${max > 0 ? (y / max) * 100 : 0}%`;
+    }
+  }
+  window.addEventListener("scroll", updateUI, {passive:true});
+  updateUI();
+
+  top?.addEventListener("click", () => window.scrollTo({top:0, behavior:"smooth"}));
+
+  function observeReveals() {
+    const els = document.querySelectorAll(".reveal:not(.show)");
+    if (!("IntersectionObserver" in window)) {
+      els.forEach(el => el.classList.add("show"));
+      return;
+    }
+    const io = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("show");
+          io.unobserve(entry.target);
+        }
+      });
+    }, {threshold:.12});
+    els.forEach(el => io.observe(el));
+  }
+  observeReveals();
+
+  // Mobile navigation
+  const menuBtn = document.getElementById("menu");
+  const nav = document.querySelector("header nav");
+
+  function closeMobileMenu() {
+    nav?.classList.remove("mobile-open");
+    menuBtn?.setAttribute("aria-expanded", "false");
+  }
+
+  menuBtn?.addEventListener("click", (e) => {
+    e.stopPropagation();
+    const isOpen = nav?.classList.toggle("mobile-open");
+    menuBtn.setAttribute("aria-expanded", isOpen ? "true" : "false");
+  });
+
+  nav?.querySelectorAll("a").forEach(link => {
+    link.addEventListener("click", closeMobileMenu);
+  });
+
+  document.addEventListener("click", (e) => {
+    if (!nav || !menuBtn) return;
+    if (!nav.contains(e.target) && !menuBtn.contains(e.target)) closeMobileMenu();
+  });
+
+  window.addEventListener("resize", () => {
+    if (window.innerWidth > 900) closeMobileMenu();
+  });
+
+  const modal = document.getElementById("requestModal");
+  const modalTitle = document.getElementById("requestTitle");
+  const modalText = document.getElementById("requestText");
+  const closeModal = () => {
+    modal?.classList.remove("open");
+    modal?.setAttribute("aria-hidden", "true");
+  };
+
+  document.addEventListener("click", e => {
+    const btn = e.target.closest(".js-request, .js-car-request");
+    if (btn && modal) {
+      modalTitle.textContent = btn.dataset.title || "درخواست کارشناس";
+      modalText.textContent = btn.dataset.text || "برای دریافت اطلاعات خودرو و هماهنگی با نمایشگاه تماس بگیرید.";
+      modal.classList.add("open");
+      modal.setAttribute("aria-hidden", "false");
+    }
+  });
+  document.getElementById("requestClose")?.addEventListener("click", closeModal);
+  modal?.addEventListener("click", e => { if (e.target === modal) closeModal(); });
+  document.addEventListener("keydown", e => { if (e.key === "Escape") closeModal(); });
+
+  const galleryImages = [
+    "images/gallery-01.jpeg",
+    "images/gallery-02.jpeg",
+    "images/gallery-03.jpeg",
+    "images/gallery-04.jpeg"
+  ];
+  const gallery = document.getElementById("galleryGrid");
+  if (gallery) {
+    gallery.innerHTML = galleryImages.map((src,i) =>
+      `<figure><img src="${src}" alt="فضای نمایشگاه ${i+1}" loading="lazy"></figure>`
+    ).join("");
+  }
+
+  const lb = document.getElementById("lightbox");
+  const lbImg = document.getElementById("lbImg");
+  gallery?.addEventListener("click", e => {
+    const img = e.target.closest("img");
+    if (!img || !lb || !lbImg) return;
+    lbImg.src = img.src;
+    lb.classList.add("open");
+  });
+  document.querySelector(".lb-close")?.addEventListener("click", () => lb?.classList.remove("open"));
+  lb?.addEventListener("click", e => { if (e.target === lb) lb.classList.remove("open"); });
+
+  document.getElementById("loader")?.classList.add("hide");
+})();
+</script>
+
+</body></html>
